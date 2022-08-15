@@ -55,7 +55,6 @@ function encryptText() {
 }
 
 
-
 function decryptText() {
   let key = txtarea.value.toLowerCase();
   if (key.length === 0) {
@@ -93,7 +92,8 @@ function resetTxtarea() {
 }
 
 function cleartxt_e() {
-  txtarea.focus();
+
   txtarea.value = "";
+  txtarea.focus();
   
 }
